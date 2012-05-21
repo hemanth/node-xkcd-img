@@ -1,0 +1,20 @@
+{
+  "author": "Hemanth.HM <hemanth.hm@gmail.com> (h3manth.com)",
+  "name": "xkcd-imgs",
+  "description": "Get random img URL and alt text from XKCD",
+  "version": "0.0.0",
+  "dependencies": {
+    "request": ">= 1.2.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "http://hemanth.github.com/node-xkcd-img",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hemanth/node-xkcd-img.git"
+  },
+  "main": "xkcd-imgs.js"
+}
