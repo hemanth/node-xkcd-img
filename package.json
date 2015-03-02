@@ -6,6 +6,9 @@
   "dependencies": {
     "request": ">=2.48.0"
   },
+  "scripts": {
+      "test": "node test.js"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {

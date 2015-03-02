@@ -12,11 +12,12 @@ var img = function(cb){
                     comic = JSON.parse(body);
                     img_url = comic['img'];
                     img_title = comic['alt'];
-                    cb({
+                    return cb(null,{
                       'url': img_url,
                       'title': img_title
                     });
-                }
+                } 
+                cb(new Error(error), null);
             });
       });
 }
