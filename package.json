@@ -2,7 +2,7 @@
   "author": "Hemanth.HM <hemanth.hm@gmail.com> (h3manth.com)",
   "name": "xkcd-imgs",
   "description": "Get random img URL and alt text from XKCD",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "request": ">=2.48.0"
   },
